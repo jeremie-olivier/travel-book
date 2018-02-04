@@ -1,25 +1,107 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>My blog - travel-book</title><meta name="robots" content="index, follow"><link rel="canonical" href="https://jeremie-olivier.github.io/travel-book/"><link rel="amphtml" href="https://jeremie-olivier.github.io/travel-book/amp/"><link type="application/atom+xml" rel="alternate" href="https://jeremie-olivier.github.io/travel-book/feed.xml"><meta property="og:title" content="travel-book"><meta property="og:site_name" content="My blog - travel-book"><meta property="og:description" content=""><link rel="stylesheet" href="https://jeremie-olivier.github.io/travel-book/assets/css/style.css?v=adb4a60c24f154bf51861cefcdcdc99e"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Geanina OLIVIER","url":"https://jeremie-olivier.github.io/travel-book"}</script><script async src="https://jeremie-olivier.github.io/travel-book/assets/js/lazysizes.min.js?v=3150bf538edc0788afd7c673a0c5dfee"></script><style>.top__search [type=search] {
-						background-image: url(https://jeremie-olivier.github.io/travel-book/assets/svg/search.svg);
-				    }</style></head><body><div class="container"><header class="js-top"><a class="logo" href="https://jeremie-olivier.github.io/travel-book">travel-book</a><div class="top"><nav class="navbar js-navbar"><button class="navbar__toggle js-navbar__toggle" aria-expanded="false">Menu</button><ul class="navbar__menu"></ul></nav><div class="top__search"><form action="https://jeremie-olivier.github.io/travel-book/search.html" class="search"><input type="search" name="q" placeholder="search..."></form></div></div></header><main><div class="hero u-wrapper"><p>Your photography stories</p><h1>Capturing life with natural light <i>photography</i></h1></div><nav class="filter"><ul><li><button class="filter__item filter__item--all" data-filter="*">All</button></li></ul></nav><div class="layout layout--3"><div class="card"><a href="https://jeremie-olivier.github.io/travel-book/voyage-a-istanbul.html"><div class="card__header"><img data-sizes="auto" src="https://jeremie-olivier.github.io/travel-book/media/posts/1/responsive/nina-xs.jpg" data-srcset="https://jeremie-olivier.github.io/travel-book/media/posts/1/responsive/nina-xs.jpg 300w ,https://jeremie-olivier.github.io/travel-book/media/posts/1/responsive/nina-sm.jpg 480w ,https://jeremie-olivier.github.io/travel-book/media/posts/1/responsive/nina-md.jpg 768w ,https://jeremie-olivier.github.io/travel-book/media/posts/1/responsive/nina-lg.jpg 1024w ,https://jeremie-olivier.github.io/travel-book/media/posts/1/responsive/nina-xl.jpg 1360w ,https://jeremie-olivier.github.io/travel-book/media/posts/1/responsive/nina-2xl.jpg 1600w ,https://jeremie-olivier.github.io/travel-book/media/posts/1/responsive/nina-sm2.jpg 375w" width="600" height="403" alt="" class="lazyload blur-up"></div><div class="card__body"><div class="card__body__wrap"><h2>Voyage a Istanbul</h2><p><time datetime="2018-02-05T00:00">February 5, 2018</time></p></div></div></a></div></div></main><footer class="footer"><div class="footer__copyright">Powered by Publii</div></footer></div><script>var loadCSSFiles = function() {
-    		var links = ['https://fonts.googleapis.com/css?family=Heebo:300,400,500|Playfair+Display:400,700'],
-    			headElement = document.getElementsByTagName('head')[0],
-    			linkElement, i;
-    		for (i = 0; i < links.length; i++) {
-    			linkElement = document.createElement('link');
-    			linkElement.rel = 'stylesheet';
-    			linkElement.href = links[i];
-    			headElement.appendChild(linkElement);
-    		}
-    	};
-    	var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
-    	if (raf) {
-    		raf(loadCSSFiles);
-    	} else {
-    		window.addEventListener('load', loadCSSFiles);
-    	}</script><script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script><script sync src="https://jeremie-olivier.github.io/travel-book/assets/js/scripts.min.js?v=f503b0ac46db9f99180b3b9f932c7f9a"></script><script defer="defer" src="https://jeremie-olivier.github.io/travel-book/assets/js/isotope.pkgd.min.js?v=39258d5d7a1a2c1df44cb3a40e494e9a"></script><script>window.addEventListener('DOMContentLoaded', function() {
-               (function($) {
-                $(document).ready(function() {
-                    var grid=$(".layout").isotope({itemSelector:".card",layoutMode:"masonry",masonry:{columnWidth:".card"},transitionDuration:"0.6s"});$(".layout").each(function(){var t=$(this);this.addEventListener("load",function(){t.isotope("layout")},!0)});var items=grid.find(".card");grid.addClass("layout--is-showing-cards").isotope("revealItemElements",items),$(".filter").on("click",".filter__item",function(){var t=$(this).attr("data-filter");grid.isotope({filter:t})});
-                });
-               })(jQuery);
-           });</script></body></html>
+---
+layout: landing
+---
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<h2>{{ site.title }}</h2>
+							<p>{{ site.description | markdownify }}</p>
+							<ul class="actions">
+								<li><a href="#" class="button special">Activate</a></li>
+							</ul>
+						</div>
+						<a href="#one" class="more scrolly">Learn More</a>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Arcu aliquet vel lobortis ata nisl<br />
+								eget augue amet aliquet nisl cep donec</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
+								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+							</header>
+							<ul class="icons major">
+								<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
+								<li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
+								<li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="images/pic01.jpg" alt="" /></div><div class="content">
+								<h2>Magna primis lobortis<br />
+								sed ullamcorper</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic02.jpg" alt="" /></div><div class="content">
+								<h2>Tortor dolore feugiat<br />
+								elementum magna</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="images/pic03.jpg" alt="" /></div><div class="content">
+								<h2>Augue eleifend aliquet<br />
+								sed condimentum</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+							</div>
+						</section>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>Accumsan mus tortor nunc aliquet</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
+								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+							</header>
+							<ul class="features">
+								<li class="icon fa-paper-plane-o">
+									<h3>Arcu accumsan</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-laptop">
+									<h3>Ac Augue Eget</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-code">
+									<h3>Mus Scelerisque</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-headphones">
+									<h3>Mauris Imperdiet</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-heart-o">
+									<h3>Aenean Primis</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+								<li class="icon fa-flag-o">
+									<h3>Tortor Ut</h3>
+									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
+								</li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- CTA -->
+					<section id="cta" class="wrapper style4">
+						<div class="inner">
+							<header>
+								<h2>Arcue ut vel commodo</h2>
+								<p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+							</header>
+							<ul class="actions vertical">
+								<li><a href="#" class="button fit special">Activate</a></li>
+								<li><a href="#" class="button fit">Learn More</a></li>
+							</ul>
+						</div>
+					</section>
