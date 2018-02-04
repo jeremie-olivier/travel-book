@@ -3,7 +3,7 @@
     <title>travel-book</title>
     <link href="https://jeremie-olivier.github.io/travel-book/feed.xml" rel="self" />
     <link href="https://jeremie-olivier.github.io/travel-book" />
-    <updated>2018-02-05T00:06:00+01:00</updated>
+    <updated>2018-02-05T00:15:05+01:00</updated>
     <author>
         <name>Geanina OLIVIER</name>
     </author>
@@ -17,10 +17,11 @@
         <link href="https://jeremie-olivier.github.io/travel-book/voyage-a-istanbul.html"/>
         <id>https://jeremie-olivier.github.io/travel-book/voyage-a-istanbul.html</id>
 
-        <updated>2018-02-05T00:00:47+01:00</updated>
+        <updated>2018-02-05T00:15:00+01:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
+                    <img src="https://jeremie-olivier.github.io/travel-book/media/posts/1/nina.jpg" alt="" />
                 <img src="https://jeremie-olivier.github.io/travel-book/media/posts/1/nina.jpg" alt="" width="600" height="403">
             ]]>
         </content>

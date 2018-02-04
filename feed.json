@@ -14,13 +14,14 @@
             "url": "https://jeremie-olivier.github.io/travel-book/voyage-a-istanbul.html",
             "title": "Voyage a Istanbul",
             "content_html": "<img src=\"https://jeremie-olivier.github.io/travel-book/media/posts/1/nina.jpg\" alt=\"\" width=\"600\" height=\"403\">",
+            "image": "https://jeremie-olivier.github.io/travel-book/media/posts/1/nina.jpg",
             "author": {
                 "name": "Geanina OLIVIER"
             },
             "tags": [
             ],
             "date_published": "2018-02-05T00:00:47+01:00",
-            "date_modified": "2018-02-05T00:00:47+01:00"
+            "date_modified": "2018-02-05T00:15:00+01:00"
         }
     ]
 }
