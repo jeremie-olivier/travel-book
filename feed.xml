@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>travel-book</title>
+    <link href="https://jeremie-olivier.github.io/travel-book/feed.xml" rel="self" />
+    <link href="https://jeremie-olivier.github.io/travel-book" />
+    <updated>2018-02-05T00:06:00+01:00</updated>
+    <author>
+        <name>Geanina OLIVIER</name>
+    </author>
+    <id>https://jeremie-olivier.github.io/travel-book</id>
+
+    <entry>
+        <title>Voyage a Istanbul</title>
+        <author>
+            <name>Geanina OLIVIER</name>
+        </author>
+        <link href="https://jeremie-olivier.github.io/travel-book/voyage-a-istanbul.html"/>
+        <id>https://jeremie-olivier.github.io/travel-book/voyage-a-istanbul.html</id>
+
+        <updated>2018-02-05T00:00:47+01:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <img src="https://jeremie-olivier.github.io/travel-book/media/posts/1/nina.jpg" alt="" width="600" height="403">
+            ]]>
+        </content>
+    </entry>
+</feed>
